@@ -25,26 +25,3 @@ class Solution:
 
         
 
-def maxValidWindow(A, N):
-    i = 0
-    j = 0
-    ans = 0
-    
-    def invalid():
-        # Define your invalid condition here
-        # This function should return True if the window is invalid, False otherwise
-        pass
-
-    while j < N:
-        # CODE: Use A[j] to update state which might make the window invalid
-        if invalid():
-            # When invalid, keep shrinking the left edge until it's valid again
-            # CODE: Update state using A[i]
-            i += 1
-        else:
-            ans = max(ans, j - i + 1)  # The window [i, j] is the maximum window found thus far
-            j += 1
-    
-    return ans
-
-
