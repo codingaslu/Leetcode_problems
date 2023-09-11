@@ -9,8 +9,5 @@ class Solution:
                 length -= 1
             else:
                 i += 1
-        
-        for i in range(length, len(nums)):
-            nums.pop()
 
         return len(nums)
