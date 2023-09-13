@@ -11,3 +11,15 @@ class Solution:
                 i += 1
 
         return len(nums)
+
+        # Another merthod
+
+
+        # lis=[]
+        # for i in nums:
+        #     if lis.count(i)<2:
+        #         lis.append(i)
+        # nums.clear()
+        # nums.extend(lis)
+        # return len(nums)
+
