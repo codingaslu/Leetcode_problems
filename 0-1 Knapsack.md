@@ -1,3 +1,4 @@
+link-https://www.youtube.com/watch?v=PfkBS9qIMRE&list=PLdo5W4Nhv31aBrJE1WS4MR9LRfbmZrAQu&index=5
 # Knapsack Problem
 
 ## Problem Description
