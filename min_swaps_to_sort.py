@@ -1,3 +1,4 @@
+#Given an array of integers, find the minimum number of swaps required to sort the array
 def min_swaps_to_sort(arr):
     n = len(arr)
     sorted_arr = sorted(arr)
