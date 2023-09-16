@@ -17,10 +17,8 @@ class Solution:
 
         return max_area
 
-        
-
-
-
+    #Bruteforce
+    
         # local_area = 0
         # global_area = 0
         # n = len(height)
